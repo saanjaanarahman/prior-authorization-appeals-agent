@@ -23,6 +23,12 @@ This process can be time-consuming and requires careful comparison between polic
 
 The project explores how an agentic AI system could assist with this process while maintaining evidence grounding and human oversight.
 
+## System Architecture
+
+The system combines retrieval-augmented generation (RAG), Tree of Thoughts reasoning, multi-agent evaluation, deterministic guardrails, verification, and human-in-the-loop escalation to support safe prior authorization appeal decisions.
+
+![Prior Authorization Appeals Agent Architecture](architecture.png)
+
 System Workflow
 
 The system follows the following workflow:
