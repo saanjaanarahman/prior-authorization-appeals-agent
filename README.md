@@ -189,6 +189,17 @@ FastMCP / MCP
 Gradio
 Google Colab
 
+## Demo
+
+### Case 1 — Appeal Supported
+The system identifies that the documented conservative treatment satisfies the policy requirement and determines that an appeal is supported.
+
+![Appeal Supported](john-appeal-supported.png)
+
+### Case 2 — Appeal Not Supported
+The system identifies that the documented treatment duration does not satisfy the policy requirement and correctly prevents an unsupported appeal from being drafted.
+
+![Appeal Not Supported](jane-appeal-not-supported.png)
 Current Limitations
 
 This is a capstone prototype rather than a production healthcare application. The current implementation uses a small synthetic dataset and demonstration thresholds.
